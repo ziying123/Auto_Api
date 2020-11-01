@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-# Author  : Allen Bright
-# Time    : 2020/6/13 5:07
-# FileName: register.py
+"""Script content introduction
+__author__ = 'ziying'
+__date__ = '2020/11/1 14:23'
+__function__ = ''
+"""
 
 # 测试需求2：（作业）
 from tools.logger import logger

@@ -1,9 +1,0 @@
-INFO     root:conftest.py:20 =================单个函数用例开始执行=================
-INFO     root:test_01_register.py:25 测试数据：{'username': 'python14', 'password1': '123456', 'password2': '123456'}
-INFO     root:test_01_register.py:26 开始执行第 12 条用例：注册成功！
-INFO     root:register.py:19 注册前现在的用户有：[{'user': 'python26', 'password': '123456'}, {'user': 'python14python14123456', 'password': '123456'}]
-INFO     root:register.py:33 注册后现在的用户有：[{'user': 'python26', 'password': '123456'}, {'user': 'python14python14123456', 'password': '123456'}, {'user': 'python14', 'password': '123456'}]
-INFO     root:test_01_register.py:31 预期结果为：{'code': 1, 'msg': '注册成功'}
-INFO     root:test_01_register.py:32 实际运行结果为：{'code': 1, 'msg': '注册成功'}
-INFO     root:test_01_register.py:41 断言成功，第 12 用例执行通过！
-INFO     root:conftest.py:22 =================单个函数用例结束执行=================

@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
+"""Script content introduction
+__author__ = 'ziying'
+__date__ = '2020/11/1 14:23'
+__function__ = ''
+"""
+
 register_data = [
     {'CaseID': 1, 'Title': '用户名为空', 'Data': '{"username": None, "password1": "123456", "password2": "123456"}',
      'check': '{"code": 0, "msg": "所有参数不能为空"}'},

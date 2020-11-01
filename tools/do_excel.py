@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
+"""Script content introduction
+__author__ = 'ziying'
+__date__ = '2020/11/1 14:23'
+__function__ = ''
+"""
 
 from openpyxl import load_workbook
 from config.conf import DATA_DIR

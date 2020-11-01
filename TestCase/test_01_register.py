@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
+"""Script content introduction
+__author__ = 'ziying'
+__date__ = '2020/11/1 14:23'
+__function__ = ''
+"""
+
 import pytest
 import os
 from common.until.register import register
@@ -8,7 +14,6 @@ from tools.do_excel import DoExcel
 from tools.logger import logger
 from config.conf import DATA_DIR
 
-# file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.xlsx")
 do_excel = DoExcel(DATA_DIR, "register")
 TestData = do_excel.get_data()
 do_excel.close_file()
