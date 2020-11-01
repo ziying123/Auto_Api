@@ -10,6 +10,7 @@ __function__ = ''
 import pytest
 
 from tools.logger import logger
+from tools.send_mail import send_report
 
 
 @pytest.fixture(scope="class")
@@ -17,7 +18,7 @@ def fix_class_level():
     logger.info('*' * 25 + "类下的用例开始执行" + '*' * 25 + '\n')
     yield
     logger.info('*' * 25 + "类下的用例结束" + '*' * 25)
-    # send_report()  # 发送邮件
+    send_report()  # 发送邮件
 
 
 @pytest.fixture(scope='function')
