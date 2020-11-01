@@ -24,12 +24,20 @@ class RequestHandler:
 
 if __name__ == '__main__':
     # 以下是测试代码
-    # post请求接口
-    url = 'http://127.0.0.1:8000/login/'
+
+    # url = 'https://www.huya.com/g/lol'
+    url = 'https://udblgn.huya.com/web/v2/passwordLogin'
+
     payload = {
         "username": "",
         "password": ""
     }
+
     req = RequestHandler()
-    login_res = req.visit("post", url, json=payload)
-    print(login_res.text)
+    res = req.visit("post", url, json=payload)
+    print(res.json())
+    # res = req.visit("get", url)
+
+    print(res.status_code)
+    print(res.reason)
+

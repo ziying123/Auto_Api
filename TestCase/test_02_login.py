@@ -9,7 +9,7 @@ __function__ = 'xxx'
 import pytest
 import os
 import json
-from common.until.register import register
+
 from tools.do_excel import DoExcel
 from tools.logger import logger
 from config.conf import DATA_DIR
@@ -33,23 +33,25 @@ class TestLogin:
         # 3、断言：预期结果与实际结果的比对
         try:
             # assert res == eval(case["check"])
-            url = 'http://127.0.0.1:8000/login/'
+            url = 'http://127.0.0.1:8000/user/login/'
             payload = {
-                "username": "",
-                "password": ""
+                "username": "xxx",
+                "password": "xxxxx"
             }
             req = RequestHandler()
             login_res = req.visit("post", url, json=payload)
 
             print(login_res)
 
+            assert 200 == login_res['code']
+            assert login_res['msg'] == '登陸成功'
+
         except AssertionError:
-            pass
-            # logger.exception("断言失败，第 {} 用例执行不通过！！".format(case["CaseID"]))
+
+            logger.exception("断言失败, 登錄失敗")
             raise
         else:
-            # logger.info("断言成功，第 {} 用例执行通过！".format(case["CaseID"]))
-            pass
+            logger.info("断言成功，登錄成功")
 
 
 if __name__ == '__main__':
