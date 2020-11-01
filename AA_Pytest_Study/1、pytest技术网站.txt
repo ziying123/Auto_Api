@@ -1,0 +1,10 @@
+1、基于Pytest框架的自动化测试开发：
+   https://mp.weixin.qq.com/s?__biz=MzI4MjcwNTU1MQ==&mid=2247483856&idx=1&sn=937841e57c77c3686ce2644367aa5248&chksm=eb94aa30dce32326b1e46efe63a1146d4d492b754d684135cf3026b26a30d5cb214ac3443a75&token=1584017789&lang=zh_CN#rd
+2、pytest+allure+jenkins - 持续集成平台生成allure报告:
+   https://www.cnblogs.com/Simple-Small/p/11512337.html
+3、pytest文章：
+   https://www.cnblogs.com/Simple-Small/tag/pytest/
+4、allure命令行工具下载地址：
+   https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/
+5、pytest+allure+jenkins - 持续集成平台生成allure报告
+   https://www.cnblogs.com/Simple-Small/p/11512337.html

@@ -1,0 +1,16 @@
+INFO     root:conftest.py:20 =================单个函数用例开始执行=================
+INFO     root:test_01_register.py:25 测试数据：{'username': 'None', 'password1': '123456', 'password2': 'None'}
+INFO     root:test_01_register.py:26 开始执行第 13 条用例：注册成功！
+INFO     root:register.py:19 注册前现在的用户有：[{'user': 'python26', 'password': '123456'}, {'user': 'python14python14123456', 'password': '123456'}, {'user': 'python14', 'password': '123456'}]
+INFO     root:test_01_register.py:31 预期结果为：{'code': 0, 'msg': '所有参数不能为空'}
+INFO     root:test_01_register.py:32 实际运行结果为：{'code': 0, 'msg': '两次密码不一致'}
+ERROR    root:test_01_register.py:38 断言失败，第 13 用例执行不通过！！
+Traceback (most recent call last):
+  File "D:\project\Auto_Api\TestCase\test_01_register.py", line 36, in test_register
+    assert res == eval(case["check"])
+AssertionError: assert {'code': 0, 'msg': '两次密码不一致'} == {'code': 0, 'msg': '所有参数不能为空'}
+  Omitting 1 identical items, use -vv to show
+  Differing items:
+  {'msg': '两次密码不一致'} != {'msg': '所有参数不能为空'}
+  Use -v to get the full diff
+INFO     root:conftest.py:22 =================单个函数用例结束执行=================
