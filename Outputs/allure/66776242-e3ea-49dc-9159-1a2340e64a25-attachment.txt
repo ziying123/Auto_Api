@@ -1,0 +1,7 @@
+INFO     root:conftest.py:26 =================单个函数用例开始执行=================
+INFO     root:test_01_register.py:30 测试数据：{'username': 'python14', 'password1': None, 'password2': '123456'}
+INFO     root:test_01_register.py:31 开始执行第 2 条用例：密码为空，确认密码不为空！
+INFO     root:test_01_register.py:36 预期结果为：{'code': 0, 'msg': '所有参数不能为空'}
+INFO     root:test_01_register.py:37 实际运行结果为：{'code': 0, 'msg': '所有参数不能为空'}
+INFO     root:test_01_register.py:46 断言成功，第 2 用例执行通过！
+INFO     root:conftest.py:28 =================单个函数用例结束执行=================

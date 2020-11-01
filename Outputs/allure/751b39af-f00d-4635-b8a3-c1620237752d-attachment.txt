@@ -1,0 +1,8 @@
+INFO     root:conftest.py:26 =================单个函数用例开始执行=================
+INFO     root:test_01_register.py:30 测试数据：{'username': 'pyt', 'password1': '123456', 'password2': '123456'}
+INFO     root:test_01_register.py:31 开始执行第 10 条用例：账号小于6位！
+INFO     root:register.py:21 注册前现在的用户有：[{'user': 'python26', 'password': '123456'}]
+INFO     root:test_01_register.py:36 预期结果为：{'code': 0, 'msg': '账号和密码必须在6-18位之间'}
+INFO     root:test_01_register.py:37 实际运行结果为：{'code': 0, 'msg': '账号和密码必须在6-18位之间'}
+INFO     root:test_01_register.py:46 断言成功，第 10 用例执行通过！
+INFO     root:conftest.py:28 =================单个函数用例结束执行=================

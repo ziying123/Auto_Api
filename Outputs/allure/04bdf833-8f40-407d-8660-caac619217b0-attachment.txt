@@ -1,0 +1,9 @@
+INFO     root:conftest.py:26 =================单个函数用例开始执行=================
+INFO     root:test_01_register.py:63 测试数字和元组数字是否相等！！
+ERROR    root:test_01_register.py:67 测试数字和元组数字是否相等失败！！
+Traceback (most recent call last):
+  File "D:\project\Auto_Api\TestCase\test_01_register.py", line 65, in test_out_function
+    assert 3 == (4,)
+AssertionError: assert 3 == (4,)
+INFO     root:conftest.py:28 =================单个函数用例结束执行=================
+INFO     root:conftest.py:20 *************************类下的用例结束*************************
