@@ -1,1 +1,0 @@
-1、在cmd命令行当中，执行：allure serve Output/allure_reports （测试结果文件目录 ）
