@@ -1,8 +1,0 @@
-INFO     root:conftest.py:26 =================单个函数用例开始执行=================
-INFO     root:test_01_register.py:50 测试数字和字符串数字是否相等！
-ERROR    root:test_01_register.py:56 测试数字和字符串数字是否相等失败！！
-Traceback (most recent call last):
-  File "D:\project\Auto_Api\TestCase\test_01_register.py", line 54, in test_a
-    assert 1 == '1'
-AssertionError: assert 1 == '1'
-INFO     root:conftest.py:28 =================单个函数用例结束执行=================

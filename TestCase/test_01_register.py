@@ -9,6 +9,7 @@ __function__ = ''
 
 import pytest
 import os
+import json
 
 from common.until.register import register
 from common.basic.req_func import RequestHandler
@@ -48,7 +49,7 @@ class TestRegister:
                 "password": "xxxxx"
             }
             req = RequestHandler()
-            login_res = req.visit("post", url, json=payload)
+            login_res = req.visit("post", url, data=json.dumps(payload))
             # print(login_res)
             # print(login_res.json())
 
